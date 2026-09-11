@@ -2,12 +2,13 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="bg-slate-900 text-slate-400 py-8 px-6 mt-auto border-t border-slate-800">
-      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-sm">
-        <p>&copy; 2026 CareerConnect are Connecting modern engineering talents seamlessly.</p>
-        <div className="flex gap-6">
-          <a href="#privacy" className="hover:text-white transition-colors">Privacy Policy</a>
-          <a href="#terms" className="hover:text-white transition-colors">Terms of Service</a>
+    <footer className="site-footer">
+      <div className="footer-inner">
+        <p>&copy; 2026 CareerConnect. Connecting talent with opportunity.</p>
+        <div className="footer-links">
+          <a href="#privacy">Privacy</a>
+          <a href="#terms">Terms</a>
+          <a href="#help">Help Center</a>
         </div>
       </div>
     </footer>
